@@ -1,0 +1,7 @@
+dong shen
+guan zhen
+wo  wo
+la  la
+le le
+
+ip add | grep "inet " | cut -d " " -f 6 | cut -d "/" -f 1

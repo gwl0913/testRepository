@@ -1,0 +1,15 @@
+dong shen
+guan zhen
+wo  wo
+la  la
+le le
+
+=================================
+添加行
+sed -e "2,3a 美女" sed.txt
+
+删除行
+sed "/wo/d" sed.txt
+
+替换 
+sed "s/wo/你/g" sed.txt

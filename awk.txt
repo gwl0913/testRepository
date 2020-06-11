@@ -1,0 +1,12 @@
+=================================
+-F 分割符
+-v 定义变量
+awk [选项参数] 'pattern1{action1} pattern2{action2}' filename
+awk -F: '/^root/{print $7}' passwd 
+awk -F: '/^root/{print $1","$7}' passwd 
+awk -F: 'BEGIN{print "user\tshell"} /bash/{print $1"\t"$7}' passwd
+
+将用户id加1
+awk -F: -v i=1 '{print $3+i}' passwd 
+
+FILENAME NR NF

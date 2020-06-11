@@ -1,0 +1,14 @@
+yum 
+tcp/ip
+    app 
+    tran
+    net
+    link
+    抓包工具
+        看故障
+        tcpdump
+系统服务
+    ssh 
+
+cat /etc/shells     
+echo $SHELL
